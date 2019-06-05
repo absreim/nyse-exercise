@@ -9,8 +9,6 @@
   "scripts": {
     "build-client": "webpack",
     "build-client-watch": "webpack -w",
-    "deploy": "script/deploy",
-    "heroku-token": "script/encrypt-heroku-auth-token",
     "lint": "eslint ./ --ignore-path .gitignore",
     "lint-fix": "npm run lint -- --fix",
     "prepare": "if [ -d .git ]; then npm-merge-driver install; fi",
@@ -58,7 +56,6 @@
     "react-redux": "^7.0.1",
     "react-router-dom": "^5.0.0",
     "redux": "^4.0.1",
-    "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "sequelize": "^5.3.1",
     "socket.io": "^2.2.0"
