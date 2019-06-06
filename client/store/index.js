@@ -4,10 +4,8 @@ import {composeWithDevTools} from 'redux-devtools-extension'
 import user from './user'
 
 const reducer = combineReducers({user})
-const middleware = composeWithDevTools(
-  applyMiddleware(thunkMiddleware)
-)
+const middleware = composeWithDevTools(applyMiddleware(thunkMiddleware))
 const store = createStore(reducer, middleware)
 
 export default store
-export {me, auth, logout, getUser, removeUser} from './user'
+export {me, auth, logout} from './user'
