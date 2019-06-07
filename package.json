@@ -1,7 +1,7 @@
 {
-  "name": "boilermaker",
-  "version": "2.0.0",
-  "description": "Some boilerplate code to get you started - get shakin'!",
+  "name": "security-viewer",
+  "version": "1.0.0",
+  "description": "Security data upload and viewing tool based for on-site coding exercise.",
   "engines": {
     "node": ">= 7.0.0"
   },
@@ -46,6 +46,8 @@
     "express-session": "^1.15.1",
     "history": "^4.9.0",
     "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "papaparse": "^5.0.0",
     "passport": "^0.4.0",
     "passport-google-oauth": "^2.0.0",
     "pg": "^7.9.0",
