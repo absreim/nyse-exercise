@@ -17,7 +17,7 @@ async function seed() {
     fooCompany.createSharePrice({
       price: 10000,
       date: Date.now(),
-      comment: 'trustworth data source :)'
+      comment: 'trustworthy data source :)'
     }),
     barCompany.createSharePrice({
       price: 2000,
