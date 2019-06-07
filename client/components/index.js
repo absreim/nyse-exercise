@@ -5,3 +5,4 @@
  */
 export {default as Navbar} from './navbar'
 export {default as CompaniesList} from './companies-list'
+export {default as Upload} from './upload'

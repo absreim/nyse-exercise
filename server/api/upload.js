@@ -34,7 +34,7 @@ router.post('/', upload.single('prices'), async (req, res, next) => {
     next(err)
     return
   }
-  res.sendStatus(200)
+  res.json({rows: data.length})
 })
 
 module.exports = router
